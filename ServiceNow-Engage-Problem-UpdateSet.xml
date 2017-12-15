@@ -1,0 +1,2245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-12-15 21:44:49">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<application_name>xMatters</application_name>
+<application_scope>x_xma_xmatters</application_scope>
+<application_version>4.0.2</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Engage with xMatters for Problem Management</description>
+<inserted/>
+<name>Engage for Problem Management</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>71b01d39db4303009bb3fabdbf96192a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>2ed05d39db4303009bb3fabdbf961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_send_priority</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="send_priority" table="x_xma_xmatters_engage_with_xmatters_problem"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;3&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Send Priority&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;medium&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;send_priority&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:07:10&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;04d7bb94db0303009bb3fabdbf961976&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Send Priority&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_send_priority&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 18:11:39&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>22d05d39db4303009bb3fabdbf96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.Send Priority</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_aba8f3d4db0303009bb3fabdbf961972</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_engage_with_xmatters_problem</description><name>x_xma_xmatters_engage_with_xmatters_problem</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>aba8f3d4db0303009bb3fabdbf961972</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_aba8f3d4db0303009bb3fabdbf961972</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>22d05d39db4303009bb3fabdbf96197f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_message_subject</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="message_subject" table="x_xma_xmatters_engage_with_xmatters_problem"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Message Subject&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;message_subject&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:07:11&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;f258bf54db0303009bb3fabdbf9619b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Message Subject&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_message_subject&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 18:07:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>26d05d39db4303009bb3fabdbf96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.message_subject</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_bbd2bea0db3203009bb3fabdbf96197a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_xma_xmatters.xMattersConfigProblem&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;xMattersConfigProblem&lt;/name&gt;&lt;script&gt;&lt;![CDATA[gs.include("xMattersConfig");
+ 
+var xMattersConfigProblem = Class.create();
+
+// We'll extend the xMattersConfig class so that we can inherit all
+// the good stuff there. We can then reference like so:
+// 'SNAPI.hostname: ' + this.SNAPI.hostname
+xMattersConfigProblem.prototype = Object.extend( new xMattersConfig(), {
+	initialize: function() {
+		this.ENGAGE = {
+			FORM: {
+				ENGAGE: "Engage with xMatters - Problem URL here",
+				CONFERENCE: "Conference - Problem URL here"
+			}
+		};
+	},
+	
+	type: 'xMattersConfigProblem'
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-11-29 21:26:12&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;bbd2bea0db3203009bb3fabdbf96197a&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMattersConfigProblem&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_bbd2bea0db3203009bb3fabdbf96197a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-15 18:31:55&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>26d05d39db4303009bb3fabdbf96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>xMattersConfigProblem</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_d7f87794db0303009bb3fabdbf9619ac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="d7f87794db0303009bb3fabdbf9619ac" sys_domain="global" table="x_xma_xmatters_engage_with_xmatters_problem" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>fb3f08e0db4303009bb3fabdbf9619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>7f3f08e0db4303009bb3fabdbf9619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>ff3f08e0db4303009bb3fabdbf9619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>send_priority</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>733f08e0db4303009bb3fabdbf9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>parent</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>f33f08e0db4303009bb3fabdbf9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>773f08e0db4303009bb3fabdbf9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>message_subject</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>f73f08e0db4303009bb3fabdbf9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>message</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:45:47</sys_created_on><sys_id>7b3f08e0db4303009bb3fabdbf9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:45:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>parent_incident</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-12 18:19:45</sys_created_on><sys_id>55254974db0303009bb3fabdbf961965</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_xma_xmatters_engage_with_xmatters_problem" sys_domain="global" view="Default view">d7f87794db0303009bb3fabdbf9619ac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-12 18:19:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_xma_xmatters_engage_with_xmatters_problem</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:08:33</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d7f87794db0303009bb3fabdbf9619ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem</sys_name><sys_overrides/><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_ui_section_d7f87794db0303009bb3fabdbf9619ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:08:33</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>26d05d39db4303009bb3fabdbf961981</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_x_xma_xmatters_engage_with_xmatters_problem_send_priority</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="send_priority" table="x_xma_xmatters_engage_with_xmatters_problem" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>send_priority</element><hint/><inactive>false</inactive><label>high</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:12:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>41d9fbd4db0303009bb3fabdbf961955</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:12:20</sys_updated_on><value>high</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>send_priority</element><hint/><inactive>false</inactive><label>low</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:11:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9cc9bfd4db0303009bb3fabdbf96193d</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:12:08</sys_updated_on><value>low</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>send_priority</element><hint/><inactive>false</inactive><label>medium</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:12:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d1c93fd4db0303009bb3fabdbf961993</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:12:14</sys_updated_on><value>medium</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>send_priority</element><name>x_xma_xmatters_engage_with_xmatters_problem</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:11:54</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>18c9bfd4db0303009bb3fabdbf96193f</sys_id><sys_mod_count>6</sys_mod_count><sys_name>send_priority</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_choice_x_xma_xmatters_engage_with_xmatters_problem_send_priority</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:12:17</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>2ad05d39db4303009bb3fabdbf96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.Send Priority</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_cc8e40e0db4303009bb3fabdbf9619b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_xma_xmatters_engage_with_xmatters_problem">x_xma_xmatters_engage_with_xmatters_problem</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>XMP</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 19:42:32</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>cc8e40e0db4303009bb3fabdbf9619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>XMP</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_number_cc8e40e0db4303009bb3fabdbf9619b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:42:32</sys_updated_on></sys_number></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>2ad05d39db4303009bb3fabdbf96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>XMP</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_c4d5fb54db0303009bb3fabdbf96194a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_xma_xmatters_xm_engage_with_xmatters_problem_content.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;script src="x_xma_xmatters.angular.min.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.angular-ui-bootstrap.min.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.xm_app_engage_xmatters_pr.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.angular.translate.min.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.xm_mod_glide_ajax.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.xm_mod_xmatters_service.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.xm_mod_location_service.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.xm_mod_options_provider.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.ng-tags-input.min.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.xm_recipient_template.jsdbx"&gt;&lt;/script&gt;
+&lt;script src="x_xma_xmatters.moment.min.jsdbx"&gt;&lt;/script&gt;
+&lt;link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet"&gt;&lt;/link&gt;
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"&gt;&lt;/link&gt;
+&lt;style&gt;
+	body {
+		font-family: SourceSansPro-Regular, SourceSansPro, "Helvetica Neue", Arial;
+	        padding-top: 0;
+	}
+	.xm-label {
+		font-size: 13px;
+		font-weight: normal;
+	}
+	input.xm-tracked.ng-dirty, textarea.xm-tracked.ng-dirty {
+		border: 1px orange solid;
+	}
+	form.ng-submitted input.ng-invalid, form.ng-submitted textarea.ng-invalid {
+		border: 1px red solid;
+	}
+	a.xm-help {
+		margin-left: 5px;
+		display: inline-block !important;	
+	}
+	.ng-dirty .tags {
+		/**border-color: orange; **/
+	}
+	.xm-tags-input-group .input-group-btn .btn {
+	   height: 34px;
+	}
+	.tags {
+	    border: 1px solid #ccc !important;
+	}
+	form.ng-submitted .ng-invalid .tags {
+		border-color: red !important;
+	}
+	tags-input .tags {
+	     box-shadow: none !important;
+	}
+	tags-input .tags .tag-item {
+	    background: #445465;
+	    border: 0;
+	}
+	tags-input .tags .tag-item .remove-button {
+	    color: white;
+	}
+	tags-input .tags .tag-item .remove-button:hover {
+	    color: #bec1c6;;
+	}
+	tags-input .tags .tag-item.selected {
+		background-color: #ae1b1f;
+	}
+	.xm-input-group-btn {
+		background-color: #f6f6f6;
+		border: solid 1px #cccccc;
+		width: 106px;
+	}
+	.xm-left {
+	     float: left;
+	}
+	.xm-right {
+	    float: right;
+	}
+	.xm-tag-feedback {
+	   right: 10px;
+	}
+	.xm-error {
+	   color: red;
+	   font-size: 13px;
+	}
+	.xm-btn-default, .xm-btn-default:focus, .xm-btn-default:hover {
+	    font-family: SourceSansPro-Regular, SourceSansPro, "Helvetica Neue", Arial;   
+	    color: #343d47;
+	    background-color: rgba(255, 255, 255, 0.45);
+	    border-color: #bdc0c4;
+	}
+	tags-input .tags .tag-item {
+	    font-family: SourceSansPro-Regular, SourceSansPro, "Helvetica Neue", Arial;   
+	}
+	tags-input .tags .input {
+	    font-family: SourceSansPro-Regular, SourceSansPro, "Helvetica Neue", Arial;   
+	}
+	tags-input .autocomplete .suggestion-item {
+	    font-family: SourceSansPro-Regular, SourceSansPro, "Helvetica Neue", Arial;   
+	}
+	h4.xm-header {
+	     font-size: 21px;
+	     font-weight: normal;
+	     margin-top: 0;
+	}
+	.xm-left-icon {
+	    margin-right: 5px;
+	}
+	.xm-right-icon {
+	    margin-left: 0;
+	}
+	.xm-right-icon .remove-button .fa {
+	     font-size: 14px;
+	     vertical-align: text-top;
+	}
+	.form-control-feedback .fa {
+	     color: rgb(52, 61, 71);
+	}
+	.xm-success-message {
+	    max-width: 80%;
+	    min-width: 375px;
+	    padding: 0 40px;
+	}
+	.xm-cancel-button {
+		margin-left: 15px;
+	}
+&lt;/style&gt;
+&lt;div id="engage" ng-app="xm.engage-xm" class="container-fluid" ng-cloak=""&gt;
+	&lt;div ng-controller="engageCtlr"&gt;
+		&lt;div class="panel" ng-show="!is_finished"&gt;
+		&lt;h4 class="xm-header"&gt;{{ 'ENGAGE_XM.TITLE' | translate }}&lt;/h4&gt;
+		&lt;form name="engageXMForm" novalidate=""&gt;
+			&lt;div class="row"&gt;
+				&lt;div class="form-group col-md-12 has-feedback" ng-class="engageXMForm.recipients.$error.required ? 'is-required' : 'is-filled'"&gt;
+					&lt;span class="required-marker" &gt;&lt;/span&gt;
+					&lt;label class="xm-label"&gt;{{ 'ENGAGE_XM.LABEL.RECIPIENTS' | translate }}&lt;/label&gt;
+					&lt;div class="input-group xm-tags-input-group"&gt;
+						&lt;span class="input-group-btn"&gt;
+							&lt;button type="button" class="btn btn-secondary xm-input-group-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+								&lt;span class="xm-left"&gt;{{ activeRecipientType.label | translate }}&lt;/span&gt;
+								&lt;span class="xm-right"&gt;
+									&lt;i class="fa fa-chevron-down"&gt;&lt;/i&gt;
+								&lt;/span&gt;
+							&lt;/button&gt;
+							&lt;ul class="dropdown-menu"&gt;
+								&lt;li ng-repeat="rType in recipientTypes"&gt;
+									&lt;a href="#" ng-click="selectRecipientType( $index )"&gt;{{ rType.label | translate }}&lt;/a&gt;
+								&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/span&gt;
+						&lt;tags-input ng-model="recipients" id="recipients" name="recipients" required="required" template="x_xma_xmatters_xm_engage_recipient_template.do?sysparm_nostack=true"&gt;
+							&lt;auto-complete source="activeRecipientType.typeahead($query)"&gt;&lt;/auto-complete&gt;
+						&lt;/tags-input&gt;
+					&lt;/div&gt;
+					&lt;span class="form-control-feedback xm-tag-feedback" ng-show="xm_search_state.isSearching"&gt;
+						&lt;i class="fa fa-spinner fa-spin fa-fw"&gt;&lt;/i&gt;
+					&lt;/span&gt;
+					&lt;div class="xm-error" ng-messages="engageXMForm.recipients.$error" ng-show="engageXMForm.$submitted"&gt;
+						&lt;div ng-message="required"&gt;{{ 'ENGAGE_XM.ERROR.REQUIRED' | translate }}&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="row"&gt;
+				&lt;div class="form-group col-sm-6" ng-class="engageXMForm.send_priority.$error.required ? 'is-required' : 'is-filled'"&gt;
+					&lt;span class="required-marker" &gt;&lt;/span&gt;
+					&lt;label class="xm-label"&gt;{{ 'ENGAGE_XM.LABEL.SEND_PRIORITY' | translate }}&lt;/label&gt;
+					&lt;select class="form-control" ng-model="send_priority" id="send_priority" name="send_priority"&gt;
+						&lt;option ng-repeat="priorityOpt in send_priority_options" value="{{priorityOpt.value}}" required="required"&gt;{{ priorityOpt.label | translate }}&lt;/option&gt;
+					&lt;/select&gt;
+					&lt;div class="xm-error" ng-messages="engageXMForm.send_priority.$error" ng-show="engageXMForm.$submitted"&gt;
+						&lt;div ng-message="required"&gt;{{ 'ENGAGE_XM.ERROR.REQUIRED' | translate }}&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				
+
+				&lt;div class="form-group col-sm-6"&gt;
+					&lt;label class="xm-label"&gt;{{ 'ENGAGE_XM.LABEL.CONFERENCE_BRIDGE' | translate }}&lt;/label&gt;
+					&lt;select class="form-control" ng-model="conference_bridge"&gt;
+						&lt;option value="None"&gt;{{ 'ENGAGE_XM.OPTIONS.CONFERENCE_BRIDGE.None' | translate }}&lt;/option&gt;
+						&lt;optgroup label="{{ 'ENGAGE_XM.OPTIONS.CONFERENCE_BRIDGE.Hosted_Category' | translate }}"&gt;
+							&lt;option ng-repeat="bridgeOpt in hosted_conference_bridge_options" value="{{bridgeOpt.value}}"&gt;{{ bridgeOpt.label | translate }}&lt;/option&gt;
+						&lt;/optgroup&gt;
+						&lt;optgroup label="{{ 'ENGAGE_XM.OPTIONS.CONFERENCE_BRIDGE.External_Category' | translate }}" ng-if="external_conference_bridge_options.length &gt; 0"&gt;
+							&lt;option ng-repeat="bridgeOpt in external_conference_bridge_options" value="{{bridgeOpt.value}}"&gt;{{ bridgeOpt.label | translate }}&lt;/option&gt;
+						&lt;/optgroup&gt;
+					&lt;/select&gt;
+				&lt;/div&gt;
+				
+			&lt;/div&gt;
+			&lt;div class="row"&gt;
+				&lt;div class="form-group col-md-12" ng-class="engageXMForm.subject.$error.required ? 'is-required' : 'is-filled'"&gt;
+					&lt;span class="required-marker" &gt;&lt;/span&gt;
+					&lt;label class="xm-label"&gt;{{ 'ENGAGE_XM.LABEL.SUBJECT' | translate }}&lt;/label&gt;
+					&lt;input type="text" class="form-control" ng-model="subject" id="subject" name="subject" required="required" ng-maxlength="200" /&gt;
+					&lt;div class="xm-error" ng-messages="engageXMForm.subject.$error" ng-show="engageXMForm.$submitted"&gt;
+						&lt;div ng-message="required"&gt;{{ 'ENGAGE_XM.ERROR.REQUIRED' | translate }}&lt;/div&gt;
+						&lt;div ng-message="maxlength"&gt;{{ 'ENGAGE_XM.ERROR.MAX_LENGTH' | translate:'{ max_length: 200 }' }}&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="row"&gt;
+				&lt;div class="form-group col-md-12" ng-class="engageXMForm.message.$error.required ? 'is-required' : 'is-filled'"&gt;
+					&lt;span class="required-marker" &gt;&lt;/span&gt;
+					&lt;label class="xm-label"&gt;{{ 'ENGAGE_XM.LABEL.MESSAGE' | translate }}&lt;/label&gt;
+					&lt;textarea class="form-control" ng-model="message" id="message" name="message" required="required" ng-maxlength="2000" /&gt;
+					&lt;div class="xm-error" ng-messages="engageXMForm.message.$error" ng-show="engageXMForm.$submitted"&gt;
+						&lt;div ng-message="required"&gt;{{ 'ENGAGE_XM.ERROR.REQUIRED' | translate }}&lt;/div&gt;
+						&lt;div ng-message="maxlength"&gt;{{ 'ENGAGE_XM.ERROR.MAX_LENGTH' | translate:'{ max_length: 2000 }' }}&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="row"&gt;
+				&lt;div class="col-md-4"&gt;
+					&lt;button class="btn btn-default xm-btn-default" ng-click="submit()"&gt;{{ 'ENGAGE_XM.BUTTON.SUBMIT' | translate }}&lt;/button&gt;
+					&lt;button class="btn btn-default xm-btn-default xm-cancel-button" type="button" ng-click="cancel()"&gt;{{ 'ENGAGE_XM.BUTTON.CANCEL' | translate }}&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/form&gt;
+		&lt;/div&gt;
+		&lt;div class="panel" ng-if="is_finished"&gt;
+			&lt;h4 class="xm-header"&gt;{{ 'ENGAGE_XM.TITLE' | translate }}&lt;/h4&gt;
+			&lt;div class="row"&gt;
+				&lt;div class="col-md-8 xm-success-message"&gt;
+					&lt;p&gt;{{ 'ENGAGE_XM.MESSAGE.SUCCESS' | translate }}&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;a href="{{engage_url}}" target="_top" class="btn btn-default xm-btn-default"&gt;{{ 'ENGAGE_XM.BUTTON.VIEW_RECORD' | translate }}&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;xm_engage_with_xmatters_problem_content&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 17:55:45&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;c4d5fb54db0303009bb3fabdbf96194a&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;xm_engage_with_xmatters_problem_content&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_c4d5fb54db0303009bb3fabdbf96194a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-15 18:03:43&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>2ad05d39db4303009bb3fabdbf961980</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>xm_engage_with_xmatters_problem_content</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_parent_incident_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="parent_incident" label="Parent Incident" language="en" table="x_xma_xmatters_engage_with_xmatters_problem"><sys_documentation action="DELETE"><element>parent_incident</element><help/><hint/><label>Parent Incident</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><plural>Parent Incidents</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-12 18:19:46</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>65254974db0303009bb3fabdbf96196e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parent Incident</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_parent_incident_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-12 18:19:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>2ed05d39db4303009bb3fabdbf96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.parent_incident</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6fa8f3d4db0303009bb3fabdbf96197a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>6fa8f3d4db0303009bb3fabdbf96197a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_engage_with_xmatters_problem">a3a8f3d4db0303009bb3fabdbf961978</sys_security_acl><sys_update_name>sys_security_acl_role_6fa8f3d4db0303009bb3fabdbf96197a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><sys_user_role display_value="x_xma_xmatters.engage_with_xmatters_problem_user" name="x_xma_xmatters.engage_with_xmatters_problem_user">9ba8f3d4db0303009bb3fabdbf96192d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>2ed05d39db4303009bb3fabdbf96197f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_message</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="message" table="x_xma_xmatters_engage_with_xmatters_problem"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Message&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;message&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:07:11&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;ca6873d4db0303009bb3fabdbf96191a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Message&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_message&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 18:07:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>62d05d39db4303009bb3fabdbf96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.message</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_9c63fe64db3203009bb3fabdbf96195c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_xma_xmatters.xMattersEventProblem&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;xMattersEventProblem&lt;/name&gt;&lt;script&gt;&lt;![CDATA[gs.include( 'xMattersEvent' );
+
+var xMattersEventProblem = Class.create();
+xMattersEventProblem.prototype = Object.extend( new xMattersEvent(), {
+	initialize: function( config, dataHelper ) {
+		
+		// The parent xMatterEvent initialize gets called
+		// before this child one, so we are confident in
+		// overwritting any values set in there.
+		if( config )
+			this.config = config;
+		
+		if( dataHelper )
+			this.dataHelper = dataHelper;
+		
+		this.conferenceBridge = null;
+
+	},
+
+    /**
+     * Convenience method for adding all fields from an incident to the event with the "inc__" prefix
+     * @param {GlideRecord[rec]} rec  The glide record to pull values from.
+     */
+    addAllTableProperties: function( rec ) {
+        this.log.debug('Adding all fields' );
+		
+        var fields = new GlideRecord( 'sys_dictionary' );
+        fields.addEncodedQuery('name=task^ORname=' + rec.getRecordClassName() );
+        fields.query();
+        var count = 0;
+		
+        while( fields.next() ) {
+            var fieldName = fields.element;
+            // this.log.debug('Trying to add ' + fieldName );
+            this.addProperty( fieldName, rec.getElement( fieldName ) );
+            count++;
+        }
+    },
+	
+    setConferenceBridge: function( bridgeInfo ) {
+		
+        this.conferenceBridge = bridgeInfo;
+    },
+	
+
+    /**
+     * Safely adds the target name to the list of recipients for the event
+     * @param {string} targetName The recipient's target name
+     */    
+    addRecipient: function( id ) {
+        if( typeof id !== 'string' || id.trim() === '' ) {
+            this.log.debug('addRecipient: Skipping invalid target: ' + id);
+        } else {
+            this.recipients.push( { "id": id } );
+        }
+    },
+	
+ /**
+     * Convenience method for getting the post body of the Event
+     * @return {object} The JSON body of the xmEvent POST request
+     */
+    getEventBody: function() {
+        var body = {
+            "properties" : this.properties,
+            "priority" : this.priority
+        };
+        if( this.recipients.length &gt; 0 ) {
+            body.recipients = this.recipients;
+        }
+        if( this.conferenceBridge ) {
+            body.conference = this.conferenceBridge;
+        }
+        if( this.callbacks.length &gt; 0 ) {
+            body.callbacks = this.callbacks;
+        }
+        if( this.responses.length &gt; 0 ) {
+            body.responses = this.responses;
+        }
+        this.log.debug('getEventBody: Prepared event body: ' + this.json.encode( body ));
+        return body;
+    },
+	
+	type: 'xMattersEventProblem'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-11-29 21:28:02&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;9c63fe64db3203009bb3fabdbf96195c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMattersEventProblem&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9c63fe64db3203009bb3fabdbf96195c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-15 19:15:27&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>62d05d39db4303009bb3fabdbf96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>xMattersEventProblem</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_e4c0f8824f6c220078bae321a310c7b6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_xma_xmatters.xm_app_engage_xmatters&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var engageApp = angular.module('xm.engage-xm', [ 'ngTagsInput', 'ngMessages', 'pascalprecht.translate', 'xm.xmatters-service', 'xm.location-service', 'xm.options-provider', 'xm.glide-ajax' ]);
+ // Global configuration for ng tags input module 
+engageApp.config(function(tagsInputConfigProvider) {
+    tagsInputConfigProvider.setDefaults('tagsInput', {
+        placeholder: 'Find Recipients',
+        replaceSpacesWithDashes: false,
+        addFromAutocompleteOnly: true,
+        displayProperty: 'name',
+        keyProperty : 'targetName'
+    }).setDefaults('autoComplete', {
+        displayProperty: 'name',
+        minLength: 2
+    });
+});
+// Configuration for translations
+engageApp.config(function ($translateProvider) {
+  $translateProvider.translations('en', {
+    ENGAGE_XM: {
+        TITLE: 'Engage with xMatters',
+        LABEL: {
+            RECIPIENTS: 'Recipients',
+            SEND_PRIORITY: 'Priority',
+            CONFERENCE_BRIDGE: 'Conference Bridge',
+            SUBJECT: 'Subject',
+            MESSAGE: 'Message'
+        },
+        BUTTON: {
+            SUBMIT: 'Submit',
+            CANCEL: 'Cancel',
+            VIEW_RECORD: 'View Record'
+        },
+        ERROR: {
+            REQUIRED: 'Required field',
+            MAX_LENGTH: 'Maximum length {{max_length}} characters'
+        },
+        MESSAGE: {
+            SUCCESS: 'Your request has been submitted successfully. To track the progress of this request in ServiceNow, view the Engage with xMatters record.'
+        },
+        OPTIONS: {
+            CONFERENCE_BRIDGE: {
+                'None': '-- None --',
+                'External_Category': 'External Bridges',
+                'Hosted_Category':   'xMatters Hosted Bridges',
+                'Hosted_New': 'Create new'
+            },
+            SEND_PRIORITY: {
+                "low": 'Low',
+                "medium": 'Medium',
+                "high": 'High'
+            },
+            RECIPIENT_TYPE: {
+                "people": "People",
+                "groups": "Groups"
+            }
+        }
+    }
+  });
+  $translateProvider.preferredLanguage('en');
+});
+engageApp.controller('engageCtlr', 
+    function($scope, $window, $translate, XMService, LocationService, OptionsProvider, GlideAjax) {
+         // Core scope variables 
+        $scope.is_finished = false; 
+        $scope.is_invalid = false;
+        $scope.global_errors = [];
+
+         // form model scope variables and default values 
+        $scope.subject = '';
+        $scope.message = '';
+        $scope.recipients = [];
+        $scope.conference_bridge = 'None';
+        $scope.send_priority = 'medium';
+
+         // result scope variable 
+        $scope.engage_url = '';
+
+         // behind the scenes scope variables used for options/state 
+        $scope.xm_search_state = XMService.searchState;
+        $scope.hosted_conference_bridge_options = OptionsProvider.hosted_conference_bridges;
+        $scope.external_conference_bridge_options = OptionsProvider.external_conference_bridges;
+        $scope.send_priority_options = OptionsProvider.send_priorities;
+        $scope.recipientTypes = [ 
+            {
+                "label": "ENGAGE_XM.OPTIONS.RECIPIENT_TYPE.people",
+                "typeahead": XMService.searchPeople
+            }, 
+            {
+                "label": "ENGAGE_XM.OPTIONS.RECIPIENT_TYPE.groups",
+                "typeahead": XMService.searchGroups
+            } 
+        ]; 
+        $scope.activeRecipientType = $scope.recipientTypes[0];
+
+        // Set the incident id scope variable based on search parameters in the url 
+        $scope.incident_id = LocationService.searchParams.incident_id;
+        if( typeof $scope.incident_id === 'undefined' || $scope.incident_id === null || $scope.incident_id === '' ) {
+            console.log( 'No incident identifier was defined' );
+            $scope.global_errors.push( 'Missing "incident_id" parameter: A valid ServiceNow Incident system id must be set to continue' );
+        }
+
+        /**
+         * Changes the active recipient type based on the input group action dropdown selection
+         * 
+         * @param  {Integer} selectedType 
+         *         index of the selected recipient option
+         */
+        $scope.selectRecipientType = function( selectedIndex ) {
+            $scope.activeRecipientType = $scope.recipientTypes[selectedIndex];
+        };
+        
+        var closeDialog = function(optionalMessage) {
+            var data = {
+                type: "DIALOG_CLOSE"
+            };
+            if(optionalMessage) {
+                data.message = optionalMessage;
+            }
+            $window.parent.postMessage(data, window.location.origin);
+        };
+    
+        $scope.cancel = function() {
+            closeDialog();
+        };
+
+        /**
+         * Submits the engageXMForm form, and if valid, tries to create a new Engage with xMatters record via
+         * the xMattersAjaxEngage client callable script include.
+         */
+        $scope.submit = function() {
+            $scope.engageXMForm.$setSubmitted( true );
+            if( $scope.engageXMForm.$invalid ) {
+                console.log( 'The form will not be submitted in an invalid state' );
+                console.log( $scope.engageXMForm );
+            } else {
+                var recipientTargets = [];
+                for( var i = 0; i &lt; $scope.recipients.length; i++ ) {
+                    recipientTargets.push( $scope.recipients[i].targetName );
+                }
+                var formData = {
+                    "recipients": recipientTargets.join( ',' ),
+                    "subject": $scope.subject,
+                    "message": $scope.message,
+                    "conference_bridge": $scope.conference_bridge,
+                    "incident_id": $scope.incident_id,
+                    "send_priority": $scope.send_priority
+                };
+                var ga = new GlideAjax( 'xMattersAjaxEngage' );
+                ga.addParam( 'sysparm_name', 'submitEngageWithXMatters' );
+                ga.addParam( 'form_data', JSON.stringify( formData ) );
+                ga.send().then( function( resp ) {
+                    if( resp.success ) {
+                        $translate('ENGAGE_XM.MESSAGE.SUCCESS').then(function(successMsg){
+                            closeDialog(successMsg);
+                        });
+                        // replacing our complete page by closing the dialog for you
+                        //$scope.is_finished = true;
+                        //$scope.engage_url = '/nav_to.do?uri=x_xma_xmatters_engage_with_xmatters.do?sys_id=' + resp.data.sys_id;
+                    } else {
+                        console.log( resp );
+                    }
+                } ).catch( function( resp ){
+                    console.log( resp );
+                } );
+            }
+        };
+    } );]]&gt;&lt;/script&gt;&lt;script_name&gt;xm_app_engage_xmatters&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-12 15:03:56&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;e4c0f8824f6c220078bae321a310c7b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_xma_xmatters.xm_app_engage_xmatters&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_e4c0f8824f6c220078bae321a310c7b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-25 01:25:41&lt;/sys_updated_on&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>62d05d39db4303009bb3fabdbf961981</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>x_xma_xmatters.xm_app_engage_xmatters</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_67a8f3d4db0303009bb3fabdbf961957</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Integration - xMatters">1b9f490f7b02f1008e0b707d784d4d81</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Engage with xMatters Problems</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_xma_xmatters_engage_with_xmatters_problem</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_xma_xmatters.engage_with_xmatters_problem_user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>67a8f3d4db0303009bb3fabdbf961957</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Engage with xMatters Problems</sys_name><sys_overrides/><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_app_module_67a8f3d4db0303009bb3fabdbf961957</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><timeline_page/><title>Engage with xMatters Problems</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>66d05d39db4303009bb3fabdbf96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problems</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Engage with xMatters Problem" language="en" table="x_xma_xmatters_engage_with_xmatters_problem"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Engage with xMatters Problem</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><plural>Engage with xMatters Problems</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>b3a8f3d4db0303009bb3fabdbf961986</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Engage with xMatters Problem</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>66d05d39db4303009bb3fabdbf96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_b4a57b54db0303009bb3fabdbf9619e1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_xma_xmatters_xm_engage_with_xmatters_problem.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;style&gt;
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.xm-dialog-form {
+	width: 400px;
+	height: 650px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.xm-dialog-form {
+		width: 500px;
+		height: 650px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.xm-dialog-form {
+		width: 700px;
+		height: 500px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.xm-dialog-form {
+		width: 750px;
+		height: 500px;
+	}
+}
+.xm-embed-iframe {
+  height: 100%;
+}
+&lt;/style&gt;
+	&lt;div class="xm-dialog-form"&gt;
+		&lt;div class="embed-responsive xm-embed-iframe"&gt;
+			&lt;iframe name="dialog_frame" id="dialog_frame" src="/x_xma_xmatters_xm_engage_with_xmatters_problem_content.do?sysparm_nostack=true&amp;amp;incident_id=${HTML:sysparm_sysID}" class="embed-responsive-item"&gt;&lt;/iframe&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+    &lt;script&gt;
+	(function() {
+		var childMessageListener = function(event) {
+			if( event.origin !== window.location.origin ) {
+				console.log("Received message from unexpected origin: " + event.origin);
+			   return;
+			} else {
+				var data = event.data;
+				if(data.type === 'DIALOG_CLOSE') {
+					if(data.message) {
+						g_form.addInfoMessage(data.message);
+					}
+					GlideDialogWindow.get().destroy();
+				} else {
+					console.log("Unhandled message type: " + data.type);
+				}
+			}
+		}
+
+		if(window.addEventListener) {
+			addEventListener('message', childMessageListener, false);
+		} else {
+			attachEvent("onmessage", childMessageListener);
+		}
+	})();
+	&lt;/script&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;xm_engage_with_xmatters_problem&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 17:54:27&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;b4a57b54db0303009bb3fabdbf9619e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;xm_engage_with_xmatters_problem&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_b4a57b54db0303009bb3fabdbf9619e1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 19:56:33&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>66d05d39db4303009bb3fabdbf961980</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>xm_engage_with_xmatters_problem</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_message_subject_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="message_subject" label="Message Subject" language="en" table="x_xma_xmatters_engage_with_xmatters_problem"><sys_documentation action="INSERT_OR_UPDATE"><element>message_subject</element><help/><hint/><label>Message Subject</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><plural>Message Subjects</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:14</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>84b8f3d4db0303009bb3fabdbf9619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Message Subject</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_message_subject_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>6ad05d39db4303009bb3fabdbf96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.Message Subject</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6fa8f3d4db0303009bb3fabdbf96196f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>6fa8f3d4db0303009bb3fabdbf96196f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_engage_with_xmatters_problem">eba8f3d4db0303009bb3fabdbf961960</sys_security_acl><sys_update_name>sys_security_acl_role_6fa8f3d4db0303009bb3fabdbf96196f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><sys_user_role display_value="x_xma_xmatters.engage_with_xmatters_problem_user" name="x_xma_xmatters.engage_with_xmatters_problem_user">9ba8f3d4db0303009bb3fabdbf96192d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>6ad05d39db4303009bb3fabdbf96197f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_recipients</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="recipients" table="x_xma_xmatters_engage_with_xmatters_problem"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Recipients&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;recipients&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:07:11&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;8f387394db0303009bb3fabdbf9619ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recipients&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_recipients&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 18:07:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>6ed05d39db4303009bb3fabdbf96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.recipients</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a3a8f3d4db0303009bb3fabdbf961978</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_engage_with_xmatters_problem</description><name>x_xma_xmatters_engage_with_xmatters_problem</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a3a8f3d4db0303009bb3fabdbf961978</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_a3a8f3d4db0303009bb3fabdbf961978</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>6ed05d39db4303009bb3fabdbf96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_script_action_c9aa6538db4303009bb3fabdbf961978</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;x_xma_xmatters.engage.problem.inserted&lt;/event_name&gt;&lt;name&gt;xMatters Engage Problem Inserted&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[gs.include("xMattersProblem"); //xMattersTask
+gs.include("xMattersLogger");
+
+var appPrefix = gs.getCurrentScopeName();
+var log = new xMattersLogger(gs.getProperty(appPrefix + '.' + "xmatters.logging.level"), 'Script Action Engage Problem Inserted' );
+
+if ( !gs.nil( event.parm1 ) &amp;&amp;  event.parm2.toString() == "engageProblemInsert" ) {
+	log.debug("Entering script action with parm1: " + event.parm1.toString() );
+	handleTaskInsert();
+} else {
+	log.debug("Entering xMatters Engage Problem Inserted script action with null/empty parm1");
+}
+
+function handleTaskInsert() {
+	
+	var xmProb = new xMattersProblem();
+	var json   = new global.JSON();
+	var parms  = json.decode( event.parm1 );
+	var notes = [];
+	
+	if( parms.sendEvent ) {
+		notes.push( xmProb.sendEngageProblem( current ) );
+        log.debug( 'Engage Problem Notes1: ' + notes );
+	}
+	
+	log.debug( 'Engage Problem Notes: ' + notes );
+	
+	// create the final work notes if the notes array has items to be added to the work notes
+	if (notes.length &gt; 0) {
+		current.work_notes = notes.join("\n");
+		current.update();
+	}
+}
+]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-12 21:03:55&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c9aa6538db4303009bb3fabdbf961978&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMatters Engage Problem Inserted&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_c9aa6538db4303009bb3fabdbf961978&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-14 01:29:00&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>a2d05d39db4303009bb3fabdbf96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters.engage.problem.inserted</table>
+<target_name>xMatters Engage Problem Inserted</target_name>
+<type>Script Action</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_send_priority_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="send_priority" label="Send Priority" language="en" table="x_xma_xmatters_engage_with_xmatters_problem"><sys_documentation action="INSERT_OR_UPDATE"><element>send_priority</element><help/><hint/><label>Send Priority</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><plural>Send Priorities</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>d0b8f3d4db0303009bb3fabdbf9619c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Send Priority</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_send_priority_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:15</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>a2d05d39db4303009bb3fabdbf96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.Send Priority</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_aa053754db0303009bb3fabdbf96194c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;name&gt;Engage with xMatters&lt;/name&gt;&lt;onclick&gt;engageWithXMatters()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var xmEngage = {};
+function engageWithXMatters() {
+  var problemId = g_form.getUniqueValue();
+  console.log( 'Problem: ' + problemId );
+  xmEngage.problem = problemId;
+  
+  var dialog = new GlideDialogWindow( 'x_xma_xmatters_xm_engage_with_xmatters_problem' );
+  //dialog.setTitle( "Engage with xMatters" );
+  dialog.setTitle( "" );
+  dialog.setPreference( "sysparm_nostack", true );
+  dialog.setPreference( "sysparm_sysID", problemId );
+  dialog.render();
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 17:52:33&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;aa053754db0303009bb3fabdbf96194c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Engage with xMatters&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_aa053754db0303009bb3fabdbf96194c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 19:36:00&lt;/sys_updated_on&gt;&lt;table&gt;problem&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>a2d05d39db4303009bb3fabdbf961980</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>problem</table>
+<target_name>Engage with xMatters</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_message_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="message" label="Message" language="en" table="x_xma_xmatters_engage_with_xmatters_problem"><sys_documentation action="INSERT_OR_UPDATE"><element>message</element><help/><hint/><label>Message</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><plural>Messages</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:14</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c8b8f3d4db0303009bb3fabdbf9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Message</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_message_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>a6d05d39db4303009bb3fabdbf96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.Message</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_67a8f3d4db0303009bb3fabdbf961975</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>67a8f3d4db0303009bb3fabdbf961975</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_engage_with_xmatters_problem">aba8f3d4db0303009bb3fabdbf961972</sys_security_acl><sys_update_name>sys_security_acl_role_67a8f3d4db0303009bb3fabdbf961975</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><sys_user_role display_value="x_xma_xmatters.engage_with_xmatters_problem_user" name="x_xma_xmatters.engage_with_xmatters_problem_user">9ba8f3d4db0303009bb3fabdbf96192d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>a6d05d39db4303009bb3fabdbf96197f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_parent_incident</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="DELETE" element="parent_incident" table="x_xma_xmatters_engage_with_xmatters_problem"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Parent Incident&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;parent_incident&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="Incident" name="incident"&gt;incident&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-12 18:19:45&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;72f40930db0303009bb3fabdbf961977&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Parent Incident&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_parent_incident&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-12 18:19:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>aad05d39db4303009bb3fabdbf96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.parent_incident</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_27a8f3d4db0303009bb3fabdbf96195a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_engage_with_xmatters_problem</description><name>x_xma_xmatters_engage_with_xmatters_problem</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>27a8f3d4db0303009bb3fabdbf96195a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_27a8f3d4db0303009bb3fabdbf96195a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>aad05d39db4303009bb3fabdbf96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_24b8f3d4db0303009bb3fabdbf9619cf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_xma_xmatters_engage_with_xmatters_problem</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>24b8f3d4db0303009bb3fabdbf9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>ua_table_licensing_config_24b8f3d4db0303009bb3fabdbf9619cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:15</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>aad05d39db4303009bb3fabdbf961981</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_conference_bridge</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="conference_bridge" table="x_xma_xmatters_engage_with_xmatters_problem"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Conference Bridge&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;conference_bridge&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:07:11&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;1f68bf94db0303009bb3fabdbf9619a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Conference Bridge&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_conference_bridge&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 18:07:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>aed05d39db4303009bb3fabdbf96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.conference_bridge</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_294576e4db3203009bb3fabdbf961904</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_xma_xmatters.xMattersProblem&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;xMattersProblem&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var xMattersProblem = Class.create();
+xMattersProblem.prototype = {
+	initialize: function( config, dataHelper ) {
+		if ( config )
+			this.config = config;
+		else
+			this.config = new xMattersConfigProblem();
+		
+		this.log = new xMattersLogger( this.config.LOGLEVEL, 'xMattersProblem' );
+		
+		if ( dataHelper ) {
+			this.dataHelper = dataHelper;
+		} else {
+			this.dataHelper = new xMattersDataHelper();
+		}
+		this.json = new global.JSON();
+	},
+	
+	/**
+ 	* @param rec current record
+ 	* @param triggerRule String containing the trigger rule
+ 	*/
+	sendEngageProblem : function( rec ) {
+		
+		var xMEvent = new xMattersEventProblem( this.config );
+
+		var parentIncident = new GlideRecord('problem');
+		parentIncident.get( rec.parent );
+		
+		xMEvent.addAllTableProperties( parentIncident );
+		
+		//	xMEvent.addProperty( 'random_property', rec.somefield );
+		
+		var recipientList = rec.recipients.split( ',' );
+		
+		for( var i=0; i&lt;=recipientList.length; i++ ) {
+			xMEvent.addRecipient( recipientList[i] );
+		}
+		
+
+		xMEvent.addProperty('task_message',         rec.message);
+		xMEvent.addProperty('task_number',          rec.number);
+		xMEvent.addProperty('task_priority',        rec.send_priority);
+		xMEvent.addProperty('task_message_subject', rec.message_subject);
+		xMEvent.addProperty('task_state',           rec.state);
+		xMEvent.addProperty('task_escalation',      rec.escalation);
+		xMEvent.addProperty('task_sys_id',          rec.sys_id);
+
+		xMEvent.addProperty('servicenowurl', this.config.SNAPI.hostname);
+		xMEvent.addProperty('xmatters_url', this.config.XMAPI.hostname);
+		
+		xMEvent.setPriority( rec.send_priority.getDisplayValue() );
+		
+		var isConference = false;
+		var confBridge = rec.conference_bridge.getDisplayValue();
+		if (confBridge !== 'None') {
+			isConference = true;
+			if (confBridge === 'Hosted_New') {
+				xMEvent.setConferenceBridge( { "type": "BRIDGE" } );
+			} else {
+				xMEvent.setConferenceBridge( {
+				  "bridgeId": confBridge,
+				  "type": "EXTERNAL"
+				});
+			}
+		}
+		
+		xMEvent.setWebserviceURL( this.config.ENGAGE.FORM.ENGAGE );		
+		if( isConference ) 
+			xMEvent.setWebserviceURL( this.config.ENGAGE.FORM.CONFERENCE );		
+
+		
+		var resp = xMEvent.send();
+		this.log.debug( 'Resp: ' + resp );
+		
+	},
+	
+	
+	type: 'xMattersProblem'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-11-29 21:36:42&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;294576e4db3203009bb3fabdbf961904&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMattersProblem&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_294576e4db3203009bb3fabdbf961904&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-15 21:39:00&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>aed05d39db4303009bb3fabdbf96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>xMattersProblem</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_d1e03c824f6c220078bae321a310c703</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_xma_xmatters.xm_mod_location_service&lt;/name&gt;&lt;script&gt;&lt;![CDATA[angular.module('xm.location-service', [])
+    .service('LocationService', function () {
+        var locService = {
+            searchParams: {}
+        };
+        var pieces = window.location.search.slice( 1 ).split( '&amp;' );
+        for( var i = 0; i &lt; pieces.length; i++ ) {
+            var paramSplit = pieces[i].split( '=' );
+            locService.searchParams[ paramSplit[0] ] = paramSplit[1];
+        }
+
+        return locService;
+    });
+]]&gt;&lt;/script&gt;&lt;script_name&gt;xm_mod_location_service&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-12 15:04:29&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;d1e03c824f6c220078bae321a310c703&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_xma_xmatters.xm_mod_location_service&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_d1e03c824f6c220078bae321a310c703&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 20:26:57&lt;/sys_updated_on&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>aed05d39db4303009bb3fabdbf961980</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>x_xma_xmatters.xm_mod_location_service</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_conference_bridge_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="conference_bridge" label="Conference Bridge" language="en" table="x_xma_xmatters_engage_with_xmatters_problem"><sys_documentation action="INSERT_OR_UPDATE"><element>conference_bridge</element><help/><hint/><label>Conference Bridge</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><plural>Conference Bridges</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:13</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>33a8f3d4db0303009bb3fabdbf9619a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conference Bridge</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_conference_bridge_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:13</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>e2d05d39db4303009bb3fabdbf96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.Conference Bridge</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_eba8f3d4db0303009bb3fabdbf961960</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_xma_xmatters_engage_with_xmatters_problem</description><name>x_xma_xmatters_engage_with_xmatters_problem</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>eba8f3d4db0303009bb3fabdbf961960</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_security_acl_eba8f3d4db0303009bb3fabdbf961960</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>e2d05d39db4303009bb3fabdbf96197f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_xma_xmatters_engage_with_xmatters_problem"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:07:12&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;6ba8f3d4db0303009bb3fabdbf96197d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_xma_xmatters_engage_with_xmatters_problem_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-11 18:07:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>e6d05d39db4303009bb3fabdbf96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_c327b794db0303009bb3fabdbf961918</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_xma_xmatters.xMattersAjaxEngageProblem&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;xMattersAjaxEngageProblem&lt;/name&gt;&lt;script&gt;&lt;![CDATA[gs.include("xMattersConfig");
+gs.include("xMattersDataHelper");
+
+var xMattersAjaxEngageProblem = Class.create();
+xMattersAjaxEngageProblem.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	/**
+	 * Retrieves xMatters configuration details used to make calls from the browser client.
+	 * Currently unused because xmApi doesn't support cross-browser calls right now
+	 *
+	 * @return {String} A stringified JSON object with the following details:
+	 * {
+	 * 		"success": true or false depending on whether the request was successful,
+	 * 		"log": an array of strings used to debug the request,
+	 * 		"error": only present if "success" = false - a string describing what went wrong,
+	 * 		"data": only present if "success" = true - an object with the following properties:
+	 * 			{
+	 * 				"host": the configured xMatters hostname,
+	 * 				"baseAuth": the Basic Authentication credentials configured to be used by the integration
+	 * 					to communicate with xMatters
+	 * 			}
+	 * }
+	 */
+	getXMattersDetails: function() {
+		var response;
+		var customLog = [];
+		try {
+			var conf     = new xMattersConfigProblem();
+			var hostname = conf.XMAPI.hostname;
+			var user     = conf.XMAPI.user;
+			var password = conf.XMAPI.password;
+
+			var isValid = true;
+			if( typeof hostname === 'undefined' || hostname === null || hostname.trim() === '' ) {
+				isValid = false;
+				customLog.push( 'Invalid hostname: ' + hostname );
+			}
+			if( typeof user === 'undefined' || user === null || user.trim() === '' ) {
+				isValid = false;
+				customLog.push( 'Invalid user: ' + user );
+			}
+			if( typeof password === 'undefined' || password === null || password.trim() === '') {
+				isValid = false;
+				customLog.push( 'Invalid password: ' + password );
+			}
+			if( isValid ) {
+				response = {
+					success: true,
+					data: {
+						host: hostname,
+						baseAuth: gs.base64Encode( user + ':' + password )
+					}
+				};
+			} else {
+				response = {
+					success: false,
+					error: "Problems exist in the xMatters API configuration"
+				};
+			}
+		} catch( e ) {
+			response = {
+				success: false,
+				error: String( e )
+			};
+		}
+		response.log = customLog;
+		return new global.JSON().encode( response );
+	},
+
+	/**
+	 * Retrieves the configured External Conference Bridges
+	 *
+	 * @return {String} A stringified JSON object with the following details:
+	 * {
+	 * 		"success": true or false depending on whether the request was successful,
+	 * 		"log": an array of strings used to debug the request,
+	 * 		"error": only present if "success" = false - a string describing what went wrong,
+	 * 		"data": only present if "success" = true - an object that will contain the external conference bridges as text
+	 * }
+	 */
+	getExternalConferenceBridges: function() {
+		var response;
+		var customLog = [];
+		try {
+			var conf = new xMattersConfig();
+			response = {
+				success: true,
+				data: conf.ENGAGE.EXTERNAL_BRIDGES
+			};
+		} catch( e ) {
+			response = {
+				success: false,
+				error: String( e )
+			};
+		}
+		response.log = customLog;
+		return new global.JSON().encode( response );
+	},
+
+    getActiveHostedConferenceBridges: function() {
+        var response;
+        var opts;
+        var activeConferenceBridgesData = {};
+
+        try {
+            var conf = new xMattersConfig();
+            var problemId = this.getParameter( 'problem_id' );
+            opts = {
+                "method": "GET",
+                "path": "/api/xm/1/events?status=ACTIVE&amp;sortBy=start_time&amp;propertyName=sys_id%23" + conf.EVENTS.LANGUAGE + "&amp;propertyValue=" + problemId,
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            };
+            var dataHelper = new xMattersDataHelper();
+            var apiResp = dataHelper.sendRequest( opts );
+            if( apiResp.status &gt;= 200 &amp;&amp; apiResp.status &lt; 300 &amp;&amp; apiResp.body ) {
+                var apiRespBody = JSON.parse(apiResp.body);
+
+                if (apiRespBody.data &amp;&amp; Array.isArray(apiRespBody.data)) {
+                    var conferenceBridgeIds = [];
+                    for (var i = 0; i &lt; apiRespBody.data.length; i++) {
+                        var dataItem = apiRespBody.data[i];
+                        if (dataItem.conference &amp;&amp; dataItem.conference.bridgeId &amp;&amp;
+							conferenceBridgeIds.indexOf(dataItem.conference.bridgeId) &lt; 0) {
+                            conferenceBridgeIds.push(dataItem.conference.bridgeId);
+                        }
+                    }
+                    var activeConferenceBridgesResponse = JSON.parse(this.getActiveConferenceBridges(conferenceBridgeIds));
+                    if (activeConferenceBridgesResponse.success) {
+                        response = {
+                            success: true,
+                            data: activeConferenceBridgesResponse.data
+                        };
+					} else {
+                    	return activeConferenceBridgesResponse;
+					}
+                }
+
+            } else {
+                response = {
+                    success: false,
+                    api_response: apiResp,
+                    error: 'The call to xMatters was unsuccessful'
+                };
+            }
+        } catch( e ) {
+            response = {
+                success: false,
+                opts: opts,
+                error: String( e )
+            };
+        }
+        return new global.JSON().encode( response );
+	},
+
+    /**
+	 * Get a list of bridges that are still ongoing
+     * @param {[]} conferenceBridgeIds: a list of conference bridge ids
+	 * @returns {{}} A list of bridges, or failure response.
+     */
+    getActiveConferenceBridges: function(conferenceBridgeIds) {
+        var response;
+        var opts;
+        var activeConferenceBridges = [];
+        var dataHelper = new xMattersDataHelper();
+
+        try {
+        	for (var i = 0; i &lt; conferenceBridgeIds.length; i++) {
+                opts = {
+                    "method": "GET",
+                    "path": "/api/xm/1/conferences/" + conferenceBridgeIds[i],
+                    "headers": {
+                        "Content-Type": "application/json"
+                    }
+                };
+                var apiResp = dataHelper.sendRequest( opts );
+                if( apiResp.status &gt;= 200 &amp;&amp; apiResp.status &lt; 300 &amp;&amp; apiResp.body) {
+                	var apiRespBody = JSON.parse(apiResp.body);
+                    if (apiRespBody.status &amp;&amp; apiRespBody.status !== "INACTIVE") {
+                        activeConferenceBridges.push(apiRespBody);
+                    }
+                } else {
+                    response = {
+                        success: false,
+                        api_response: apiResp,
+                        error: 'The call to xMatters was unsuccessful'
+                    };
+                    return new global.JSON().encode( response );
+                }
+            }
+            response = {
+                success: true,
+                data: activeConferenceBridges
+            };
+		} catch( e ) {
+			response = {
+				success: false,
+				opts: opts,
+				error: String( e )
+			};
+		}
+
+        return new global.JSON().encode( response );
+    },
+
+	/**
+	 * Searches xMatters for people via the search people xmAPI endpoint
+	 * When called from glide ajax, must have a string "search_term" parameter.
+	 *
+	 * @return {String} A stringified JSON object with the following details:
+	 * {
+	 * 		"success": true or false depending on whether the submission was successful,
+	 * 		"opts": an object that will contain the details of the http callout,
+	 * 		"error": only present if "success" = false - a string describing what went wrong,
+	 * 		"api_response": only present if "success" = false - will contain the http response in a failed http call,
+	 * 		"data": only present if "success" = true - will contain the http response in a successfull http call
+	 * }
+	 */
+	searchPeople: function(){
+		var response;
+		var opts;
+		try {
+			var search_term = this.getParameter( 'search_term' );
+			opts = {
+				"method": "GET",
+				"path": "/api/xm/1/people?search=" + search_term,
+				"headers": {
+					"Content-Type": "application/json"
+				}
+			};
+			var dataHelper = new xMattersDataHelper();
+			var apiResp = dataHelper.sendRequest( opts );
+			if( apiResp.status &gt;= 200 &amp;&amp; apiResp.status &lt; 300 ) {
+				response = {
+					success: true,
+					data: apiResp
+				};
+			} else {
+				response = {
+					success: false,
+					api_response: apiResp,
+					error: 'The call to xMatters was unsuccessful'
+				};
+			}
+		} catch( e ) {
+			response = {
+				success: false,
+				opts: opts,
+				error: String( e )
+			};
+		}
+		return new global.JSON().encode( response );
+	},
+
+	/**
+	 * Searches xMatters for groups via the search groups xmAPI endpoint
+	 * When called from glide ajax, must have a string "search_term" parameter.
+	 *
+	 * @return {String} A stringified JSON object with the following details:
+	 * {
+	 * 		"success": true or false depending on whether the submission was successful,
+	 * 		"opts": an object that will contain the details of the http callout,
+	 * 		"error": only present if "success" = false - a string describing what went wrong,
+	 * 		"api_response": only present if "success" = false - will contain the http response in a failed http call,
+	 * 		"data": only present if "success" = true - will contain the http response in a successfull http call
+	 * }
+	 */
+	searchGroups: function(){
+		var response;
+		var opts;
+		try {
+			var search_term = this.getParameter( 'search_term' );
+			var dataHelper = new xMattersDataHelper();
+			opts = {
+				"method": "GET",
+				"path": "/api/xm/1/groups?search=" + search_term,
+				"headers": {
+					"Content-Type": "application/json"
+				}
+			};
+			var apiResp = dataHelper.sendRequest( opts );
+			if( apiResp.status &gt;= 200 &amp;&amp; apiResp.status &lt; 300 ) {
+				response = {
+					success: true,
+					data: apiResp
+				};
+			} else {
+				response = {
+					success: false,
+					api_response: apiResp,
+					error: 'The call to xMatters was unsuccessful'
+				};
+			}
+		} catch( e ) {
+			response = {
+				success: false,
+				error: String( e )
+			};
+		}
+		response.opts = opts;
+		return new global.JSON().encode( response );
+	},
+
+	/**
+	 * Submits a new Engage with xMatters record in ServiceNow (note that this does not perform any communication between ServiceNow and xMatters)
+	 * When called from glide ajax, must have a stringified "form_data" parameter. This parameter should look like the following:
+	 * 	{
+	 * 		"recipients": semi-colon delimited list of recipient target names,
+	 * 		"message": the message,
+	 * 		"problem_id": System ID of Parent Incident,
+	 * 		"subject": the subject,
+	 * 		"send_priority": the send priority,
+	 * 		"conference_bridge": Optional Conference Bridge
+	 * 	}
+	 *
+	 * @return {String} A stringified JSON object with the following details:
+	 * {
+	 * 		"success": true or false depending on whether the submission was successful,
+	 * 		"error": only present if "success" = false - a string describing what went wrong,
+	 * 		"data": only present if "success" = true - an object with the following properties:
+	 * 			{
+	 * 				"sys_id": the id of the new Engage with xMatters record
+	 * 			}
+	 * }
+	 */
+	submitEngageWithXMatters: function() {
+		var response;
+		try {
+			var form_data = this.getParameter( 'form_data' );
+			var formData = new global.JSON().decode( form_data );
+			
+			var engageRequest = new GlideRecord( 'x_xma_xmatters_engage_with_xmatters_problem' );
+			engageRequest.initialize();
+			engageRequest.recipients      = formData.recipients;
+			engageRequest.message         = formData.message;
+			//engageRequest.parent_incident = formData.problem_id;
+			engageRequest.parent          = formData.problem_id;
+			engageRequest.message_subject = formData.subject;
+			engageRequest.send_priority   = formData.send_priority;
+			engageRequest.conference_bridge = formData.conference_bridge;
+			engageRequest.insert();
+
+			response = {
+				success: true,
+				data: { sys_id: String( engageRequest.sys_id ) }
+			};
+		} catch( e ) {
+			response = {
+				success: false,
+				error: String( e )
+			};
+		}
+		return new global.JSON().encode( response );
+	},
+
+    type: 'xMattersAjaxEngageProblem'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:03:10&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;c327b794db0303009bb3fabdbf961918&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMattersAjaxEngageProblem&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c327b794db0303009bb3fabdbf961918&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-12 18:51:25&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>e6d05d39db4303009bb3fabdbf96197e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>xMattersAjaxEngageProblem</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_9ba8f3d4db0303009bb3fabdbf96192d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_xma_xmatters.engage_with_xmatters_problem_user</name><suffix>engage_with_xmatters_problem_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:10</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>9ba8f3d4db0303009bb3fabdbf96192d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters.engage_with_xmatters_problem_user</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_user_role_9ba8f3d4db0303009bb3fabdbf96192d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:10</sys_updated_on></sys_user_role></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>e6d05d39db4303009bb3fabdbf961981</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>x_xma_xmatters.engage_with_xmatters_problem_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_8bc7fb94db0303009bb3fabdbf961904</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Engage with xMatters Problem</label><live_feed_enabled>false</live_feed_enabled><name>x_xma_xmatters_engage_with_xmatters_problem</name><number_ref display_value="XMP">cc8e40e0db4303009bb3fabdbf9619b0</number_ref><provider_class/><read_access>true</read_access><super_class display_value="Task" name="task">e311f1a57131030092c0e10d8a5376b0</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:11</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>8bc7fb94db0303009bb3fabdbf961904</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Engage with xMatters Problem</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_db_object_8bc7fb94db0303009bb3fabdbf961904</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 19:42:32</sys_updated_on><update_access>true</update_access><user_role display_value="x_xma_xmatters.engage_with_xmatters_problem_user" name="x_xma_xmatters.engage_with_xmatters_problem_user">9ba8f3d4db0303009bb3fabdbf96192d</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>ead05d39db4303009bb3fabdbf96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_ae271178db0303009bb3fabdbf9619c3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_xma_xmatters_engage_with_xmatters_problem&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;xMatters Engage Problem&lt;/name&gt;&lt;order&gt;10000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+
+    //This function will be automatically called when this rule is processed.
+    var config = new xMattersConfig();
+    var log = new xMattersLogger(config.DEBUGGING, 'xMatters Engage BR');
+    var json = new global.JSON();
+
+    var timer = log.timer();
+    log.debug('Starting Business Rule (operation: ' + current.operation() + ')');
+    try {
+        var triggerRule = 'Opened';
+        var eventName = 'x_xma_xmatters.engage.problem.inserted';
+
+        log.debug('Sending xM Task Assignment notification on insert.');
+
+        var parms = {
+            "sendEvent": true,
+            "triggerRule": triggerRule
+        };
+
+        gs.eventQueue(eventName, current, json.encode(parms), 'engageProblemInsert');
+
+        log.info('Business Rule finished (' + log.timer(timer) + 'ms elapsed)');
+
+    } catch (e) {
+        log.logException('', e);
+        throw e;
+    }
+
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-12 19:40:10&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ae271178db0303009bb3fabdbf9619c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMatters Engage Problem&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ae271178db0303009bb3fabdbf9619c3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-13 16:44:33&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ae271178db0303009bb3fabdbf9619c3"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>ead05d39db4303009bb3fabdbf96197d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>xMatters Engage Problem</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_35967394db0303009bb3fabdbf9619b4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_xma_xmatters.xm_app_engage_xmatters_pr&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var engageApp = angular.module('xm.engage-xm', [ 'ngTagsInput', 'ngMessages', 'pascalprecht.translate', 'xm.xmatters-service', 'xm.location-service', 'xm.options-provider', 'xm.glide-ajax' ]);
+ // Global configuration for ng tags input module 
+engageApp.config(function(tagsInputConfigProvider) {
+    tagsInputConfigProvider.setDefaults('tagsInput', {
+        placeholder: 'Find Recipients',
+        replaceSpacesWithDashes: false,
+        addFromAutocompleteOnly: true,
+        displayProperty: 'name',
+        keyProperty : 'targetName'
+    }).setDefaults('autoComplete', {
+        displayProperty: 'name',
+        minLength: 2
+    });
+});
+// Configuration for translations
+engageApp.config(function ($translateProvider) {
+  $translateProvider.translations('en', {
+    ENGAGE_XM: {
+        TITLE: 'Engage with xMatters',
+        LABEL: {
+            RECIPIENTS: 'Recipients',
+            SEND_PRIORITY: 'Priority',
+            CONFERENCE_BRIDGE: 'Conference Bridge',
+            SUBJECT: 'Subject',
+            MESSAGE: 'Message'
+        },
+        BUTTON: {
+            SUBMIT: 'Submit',
+            CANCEL: 'Cancel',
+            VIEW_RECORD: 'View Record'
+        },
+        ERROR: {
+            REQUIRED: 'Required field',
+            MAX_LENGTH: 'Maximum length {{max_length}} characters'
+        },
+        MESSAGE: {
+            SUCCESS: 'Your request has been submitted successfully. To track the progress of this request in ServiceNow, view the Engage with xMatters record.'
+        },
+        OPTIONS: {
+            CONFERENCE_BRIDGE: {
+                'None': '-- None --',
+                'External_Category': 'External Bridges',
+                'Hosted_Category':   'xMatters Hosted Bridges',
+                'Hosted_New': 'Create new'
+            },
+            SEND_PRIORITY: {
+                "low": 'Low',
+                "medium": 'Medium',
+                "high": 'High'
+            },
+            RECIPIENT_TYPE: {
+                "people": "People",
+                "groups": "Groups"
+            }
+        }
+    }
+  });
+  $translateProvider.preferredLanguage('en');
+});
+engageApp.controller('engageCtlr', 
+    function($scope, $window, $translate, XMService, LocationService, OptionsProvider, GlideAjax) {
+         // Core scope variables 
+        $scope.is_finished = false; 
+        $scope.is_invalid = false;
+        $scope.global_errors = [];
+
+         // form model scope variables and default values 
+        $scope.subject = '';
+        $scope.message = '';
+        $scope.recipients = [];
+        $scope.conference_bridge = 'None';
+        $scope.send_priority = 'medium';
+
+         // result scope variable 
+        $scope.engage_url = '';
+
+         // behind the scenes scope variables used for options/state 
+        $scope.xm_search_state = XMService.searchState;
+        $scope.hosted_conference_bridge_options = OptionsProvider.hosted_conference_bridges;
+        $scope.external_conference_bridge_options = OptionsProvider.external_conference_bridges;
+        $scope.send_priority_options = OptionsProvider.send_priorities;
+        $scope.recipientTypes = [ 
+            {
+                "label": "ENGAGE_XM.OPTIONS.RECIPIENT_TYPE.people",
+                "typeahead": XMService.searchPeople
+            }, 
+            {
+                "label": "ENGAGE_XM.OPTIONS.RECIPIENT_TYPE.groups",
+                "typeahead": XMService.searchGroups
+            } 
+        ]; 
+        $scope.activeRecipientType = $scope.recipientTypes[0];
+console.log( 'LocationService searchParams: ' + JSON.stringify( LocationService.searchParams ));
+	
+        // Set the incident id scope variable based on search parameters in the url 
+        $scope.problem_id = LocationService.searchParams.incident_id;
+        if( typeof $scope.problem_id === 'undefined' || $scope.problem_id === null || $scope.problem_id === '' ) {
+            console.log( 'No problem identifier was defined' );
+            $scope.global_errors.push( 'Missing "problem_id" parameter: A valid ServiceNow Problem system id must be set to continue' );
+        }
+console.log( 'Problem ID 23: ' + $scope.problem_id );
+	
+        /**
+         * Changes the active recipient type based on the input group action dropdown selection
+         * 
+         * @param  {Integer} selectedType 
+         *         index of the selected recipient option
+         */
+        $scope.selectRecipientType = function( selectedIndex ) {
+            $scope.activeRecipientType = $scope.recipientTypes[selectedIndex];
+        };
+        
+        var closeDialog = function(optionalMessage) {
+            var data = {
+                type: "DIALOG_CLOSE"
+            };
+            if(optionalMessage) {
+                data.message = optionalMessage;
+            }
+            $window.parent.postMessage(data, window.location.origin);
+        };
+    
+        $scope.cancel = function() {
+            closeDialog();
+        };
+
+        /**
+         * Submits the engageXMForm form, and if valid, tries to create a new Engage with xMatters record via
+         * the xMattersAjaxEngage client callable script include.
+         */
+        $scope.submit = function() {
+            $scope.engageXMForm.$setSubmitted( true );
+            if( $scope.engageXMForm.$invalid ) {
+                console.log( 'The form will not be submitted in an invalid state' );
+                console.log( $scope.engageXMForm );
+            } else {
+                var recipientTargets = [];
+                for( var i = 0; i &lt; $scope.recipients.length; i++ ) {
+                    recipientTargets.push( $scope.recipients[i].targetName );
+                }
+                var formData = {
+                    "recipients": recipientTargets.join( ',' ),
+                    "subject": $scope.subject,
+                    "message": $scope.message,
+                    "conference_bridge": $scope.conference_bridge,
+                    "problem_id": $scope.problem_id,
+                    "send_priority": $scope.send_priority
+                };
+				
+				console.log( 'formData: ' + JSON.stringify( formData ) );
+				
+                var ga = new GlideAjax( 'xMattersAjaxEngageProblem' );
+                ga.addParam( 'sysparm_name', 'submitEngageWithXMatters' );
+                ga.addParam( 'form_data', JSON.stringify( formData ) );
+                ga.send().then( function( resp ) {
+                    if( resp.success ) {
+                        $translate('ENGAGE_XM.MESSAGE.SUCCESS').then(function(successMsg){
+                            closeDialog(successMsg);
+                        });
+                        // replacing our complete page by closing the dialog for you
+                        //$scope.is_finished = true;
+                        //$scope.engage_url = '/nav_to.do?uri=x_xma_xmatters_engage_with_xmatters.do?sys_id=' + resp.data.sys_id;
+                    } else {
+                        console.log( resp );
+                    }
+                } ).catch( function( resp ){
+                    console.log( resp );
+                } );
+            }
+        };
+    } );]]&gt;&lt;/script&gt;&lt;script_name&gt;xm_app_engage_xmatters_problem&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-12-11 18:00:26&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;35967394db0303009bb3fabdbf9619b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_xma_xmatters.xm_app_engage_xmatters_pr&lt;/sys_name&gt;&lt;sys_package display_value="xMatters" source="x_xma_xmatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="xMatters"&gt;5950d7444f2231000e9fa88ca310c78c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_35967394db0303009bb3fabdbf9619b4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-12-12 18:43:12&lt;/sys_updated_on&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>ead05d39db4303009bb3fabdbf961980</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>x_xma_xmatters.xm_app_engage_xmatters_pr</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_4b6ae138db4303009bb3fabdbf9619f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><description>New Engage Problem record</description><event_name>x_xma_xmatters.engage.problem.inserted</event_name><fired_by/><queue/><suffix>engage.problem.inserted</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-12 21:03:17</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>4b6ae138db4303009bb3fabdbf9619f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters.engage.problem.inserted</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sysevent_register_4b6ae138db4303009bb3fabdbf9619f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-12 21:03:17</sys_updated_on><table/></sysevent_register></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>eed05d39db4303009bb3fabdbf961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table/>
+<target_name>x_xma_xmatters.engage.problem.inserted</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_recipients_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="recipients" label="Recipients" language="en" table="x_xma_xmatters_engage_with_xmatters_problem"><sys_documentation action="INSERT_OR_UPDATE"><element>recipients</element><help/><hint/><label>Recipients</label><language>en</language><name>x_xma_xmatters_engage_with_xmatters_problem</name><plural>Recipients</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>50b8f3d4db0303009bb3fabdbf9619b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Recipients</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_update_name>sys_documentation_x_xma_xmatters_engage_with_xmatters_problem_recipients_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:15</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>eed05d39db4303009bb3fabdbf96197c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>Engage with xMatters Problem.Recipients</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_a7a8f3d4db0303009bb3fabdbf96195d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-12-11 18:07:12</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a7a8f3d4db0303009bb3fabdbf96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</sys_name><sys_package display_value="xMatters" source="x_xma_xmatters">5950d7444f2231000e9fa88ca310c78c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="xMatters">5950d7444f2231000e9fa88ca310c78c</sys_scope><sys_security_acl display_value="x_xma_xmatters_engage_with_xmatters_problem">27a8f3d4db0303009bb3fabdbf96195a</sys_security_acl><sys_update_name>sys_security_acl_role_a7a8f3d4db0303009bb3fabdbf96195d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-12-11 18:07:12</sys_updated_on><sys_user_role display_value="x_xma_xmatters.engage_with_xmatters_problem_user" name="x_xma_xmatters.engage_with_xmatters_problem_user">9ba8f3d4db0303009bb3fabdbf96192d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="Engage for Problem Management">2ed05d39db4303009bb3fabdbf961979</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-12-15 21:44:49</sys_created_on>
+<sys_id>eed05d39db4303009bb3fabdbf96197f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-12-15 21:44:49</sys_updated_on>
+<table>x_xma_xmatters_engage_with_xmatters_problem</table>
+<target_name>x_xma_xmatters_engage_with_xmatters_problem.x_xma_xmatters.engage_with_xmatters_problem_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
