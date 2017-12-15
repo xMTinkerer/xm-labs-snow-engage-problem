@@ -19,7 +19,7 @@ A new UI Action button on an open Problem record will display the Enage with xMa
 
 
 <kbd>
-  <img src="media/EngagewxMatters-problem.png" width="200" height="400">
+  <img src="media/EngagewxMatters-problem.png" width="200">
 </kbd>
 
 
@@ -62,7 +62,7 @@ After clicking submit, the information is populated into an Engage with xMatters
 Navigate to an existing Problem record and click the `Engage with xMatters` button in the upper right. This will display the Engage with xMatters dialog:
 
 <kbd>
-  <img src="media/EngagewxMatters-problem.png" width="200" height="400">
+  <img src="media/EngagewxMatters-problem.png" width="200">
 </kbd>
 
 Enter the required fields and hit Submit. A new event will be created in xMatters and notifications will be sent targeting the recipients. If a conference bridge was selected, they will be invited to a conference. 
