@@ -2,7 +2,9 @@
 The current Engage with xMatters works great for Incidents. This Add-on adds the Engage functionality to the Problem Management module in ServiceNow. It currently only does outbound to xMatters, but adding the closed loop portion would be relatively easy. 
 
 <kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
 </kbd>
 
 # Pre-Requisites
@@ -11,7 +13,7 @@ The current Engage with xMatters works great for Incidents. This Add-on adds the
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [ServiceNow40ProblemManagement.zip](ServiceNow40ProblemManagement.zip) - The Problem Management Comm Plan. Currently only has an Engage with xMatters form. 
+* [ServiceNow40ProblemManagement.zip](ServiceNow40ProblemManagement.zip) - The Problem Management workflow. Currently only has an Engage with xMatters form. 
 * [ServiceNow-Engage-Problem-UpdateSet.xml](ServiceNow-Engage-Problem-UpdateSet.xml) - Update set for loading into ServiceNow.
 
 # How it works
@@ -19,7 +21,7 @@ A new UI Action button on an open Problem record will display the Enage with xMa
 
 
 <kbd>
-  <img src="media/EngagewxMatters-problem.png" width="200">
+  <img src="media/EngagewxMatters-problem.png" width="400">
 </kbd>
 
 
@@ -29,9 +31,9 @@ After clicking submit, the information is populated into an Engage with xMatters
 
 ## xMatters set up
 
-1. Login to xMatters as a Company Supervisor and navigate to the Developer tab. 
-2. Import the [ServiceNow40ProblemManagement.zip](ServiceNow40ProblemManagement.zip) Comm Plan. 
-2. Next to the `ServiceNow 4.0 - Problem Management` Comm Plan, click Edit > Integration Builder and expand the Inbound Integrations. 
+1. Login to xMatters as a Company Supervisor and navigate to the Workflows. 
+2. Import the [ServiceNow40ProblemManagement.zip](ServiceNow40ProblemManagement.zip) workflow. 
+2. Next to the `ServiceNow 4.0 - Problem Management` workflow, click Edit > Integration Builder and expand the Inbound Integrations. 
 3. Click on the `Engage with xMatters - Problem` integration, scroll to the bottom and copy the url. Keep this for later. 
 4. Repeat for the `Conference - Problem` integration. 
 
@@ -49,12 +51,12 @@ After clicking submit, the information is populated into an Engage with xMatters
 2. Open the record and look for this section and update each entry with the url copied above. 
 
 ```
-		this.ENGAGE = {
-			FORM: {
-				ENGAGE: "Engage with xMatters - Problem URL here",
-				CONFERENCE: "Conference - Problem URL here"
-			}
-		};
+    this.ENGAGE = {
+      FORM: {
+        ENGAGE: "Engage with xMatters - Problem URL here",
+        CONFERENCE: "Conference - Problem URL here"
+      }
+    };
 ```
 
 
@@ -62,7 +64,7 @@ After clicking submit, the information is populated into an Engage with xMatters
 Navigate to an existing Problem record and click the `Engage with xMatters` button in the upper right. This will display the Engage with xMatters dialog:
 
 <kbd>
-  <img src="media/EngagewxMatters-problem.png" width="200">
+  <img src="media/EngagewxMatters-problem.png" width="400">
 </kbd>
 
 Enter the required fields and hit Submit. A new event will be created in xMatters and notifications will be sent targeting the recipients. If a conference bridge was selected, they will be invited to a conference. 
